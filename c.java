@@ -1,0 +1,17 @@
+class c{
+	public static void main(String args[]){
+		//create array
+		String name[]={"cat","dog","fish"};
+		int marks[]={23,96,80};
+
+		//array can create String []name and int []marks
+
+		for(String a:name){
+			System.out.println(a);
+		}
+
+		for(int b:marks){
+			System.out.println(b);
+		}
+	}
+}
