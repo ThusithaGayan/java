@@ -3,9 +3,9 @@ class c{
 		//create array
 		String name[]={"cat","dog","fish"};
 		int marks[]={23,96,80};
-
 		//array can create String []name and int []marks
 
+		//Enhanced for loops
 		for(String a:name){
 			System.out.println(a);
 		}
