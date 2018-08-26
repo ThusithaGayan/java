@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class factorial{
+
+	public int fac(int n){
+		if(n<2){
+			return 1;
+		}
+		else{
+			return n*fac(n-1);
+		}
+	}
+	public static void main(String args[]){
+			int number;
+
+			Scanner obj=new Scanner(System.in);
+			System.out.print("Enter Number: ");
+			number=obj.nextInt();
+			factorial f=new factorial();
+			System.out.println("factorial "+number+" is "+f.fac(number));
+
+	}
+}
